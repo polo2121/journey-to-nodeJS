@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NodeJS</title>
+    <style>
+      .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4%;
+      }
+      .container * {
+        padding: 10px;
+      }
+      button {
+        width: 10%;
+        margin-top: 20px;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="here">
+      <h1>User</h1>
+      <img src="./p3.png" alt="" width="200px" />
+      <label for="">Name</label>
+      <input type="text" name="" value="Spector" id="name" />
+
+      <label for="">Age</label>
+      <input type="text" name="" value="21" id="age" />
+
+      <label for="">Member Type</label>
+      <input type="text" name="" value="red" id="type" />
+
+      <button onclick="nextBtn()">Next</button>
+    </div>
+    <script src="xhr_request.js"></script>
+  </body>
+</html>
