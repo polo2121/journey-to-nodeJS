@@ -2,5 +2,24 @@
   "dependencies": {
     "dotenv": "^16.0.0",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "name": "journey-to-nodejs",
+  "description": "",
+  "version": "1.0.0",
+  "main": "Post_Get_Testing.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/polo2121/journey-to-nodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polo2121/journey-to-nodeJS/issues"
+  },
+  "homepage": "https://github.com/polo2121/journey-to-nodeJS#readme"
 }
