@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "dotenv": "^16.0.0",
+    "express": "^4.18.1",
     "xmlhttprequest": "^1.8.0"
   },
   "name": "journey-to-nodejs",
   "description": "",
   "version": "1.0.0",
   "main": "Post_Get_Testing.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/polo2121/journey-to-nodeJS/issues"
   },
-  "homepage": "https://github.com/polo2121/journey-to-nodeJS#readme"
+  "homepage": "https://github.com/polo2121/journey-to-nodeJS#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
 }
